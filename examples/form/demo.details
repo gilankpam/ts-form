@@ -15,5 +15,5 @@ resources:
 normalize_css: yes
 lang_css: SCSS
 lang_js: TypeScript
-load_type: onDomReady
+wrap: d
 ...
