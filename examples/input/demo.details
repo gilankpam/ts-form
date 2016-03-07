@@ -1,6 +1,5 @@
 ---
 name: TSForm.Elements.InputElement - Basic Example
-description: Standard implementation
 authors:
   - Olivier Andiressen
 resources:

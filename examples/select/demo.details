@@ -1,6 +1,5 @@
 ---
 name: TSForm.Elements.SelectElement - Basic Example
-description: Standard implementation
 authors:
   - Olivier Andiressen
 resources:
