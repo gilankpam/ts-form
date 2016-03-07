@@ -11,7 +11,6 @@ resources:
   - https://rawgit.com/redound/ts-core/development/build/ts-core.js
   - https://rawgit.com/redound/ts-form/master/build/ts-form.js
   - https://rawgit.com/redound/ts-form/master/build/ts-form.tpls.js
-  - https://rawgit.com/redound/ts-form/master/examples/checkbox/demo.js
 normalize_css: yes
 lang_css: SCSS
 lang_js: TypeScript
