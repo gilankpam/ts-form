@@ -1,0 +1,47 @@
+{
+  "name": "ts-form",
+  "version": "0.1.0",
+  "homepage": "https://github.com/redound/ts-form",
+  "authors": [
+    "Olivier Andriessen <olivierandriessen@gmail.com>",
+    "Bart Blok <bart@wittig.nl>"
+  ],
+  "description": "TypeScript Form Library",
+  "main": [
+    "build/ts-form.js",
+    "build/ts-form.tpls.js",
+    "build/ts-form.min.js",
+    "build/ts-form.d.ts"
+  ],
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "angular": "angularjs#^1.5.0"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "core",
+    "library",
+    "collection",
+    "dictionary",
+    "array",
+    "set",
+    "events",
+    "config",
+    "di",
+    "grid",
+    "sortedcollection",
+    "geometry",
+    "data",
+    "model",
+    "size",
+    "point"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

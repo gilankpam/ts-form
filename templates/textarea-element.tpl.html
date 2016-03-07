@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label for="{{ vm.element.getId() }}" class="control-label col-sm-3">
+        {{ vm.element.getLabel() }}
+    </label>
+    <div class="col-sm-9">
+        <textarea id="{{ vm.element.getId() }}" type="text" class="form-control" ng-model="vm.modelValue" ng-minlength="{{ vm.element.getMinLength() }}" ng-maxlength="{{ vm.element.getMaxLength() }}" ng-required="{{ vm.element.getRequired() }}"></textarea>
+    </div>
+</div>

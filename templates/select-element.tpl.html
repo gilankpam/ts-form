@@ -1,0 +1,8 @@
+<div class="form-group">
+    <label for="{{ vm.element.getId() }}" class="control-label col-sm-3">
+        {{ vm.element.getLabel() }}
+    </label>
+    <div class="col-sm-9">
+        <select id="{{ vm.element.getId() }}" name="{{ vm.element.getId() }}" class="form-control" ng-model="vm.modelValue" ng-options="option.value as option.label for option in vm.element.getOptions()"></select>
+    </div>
+</div>

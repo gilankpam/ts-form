@@ -1,0 +1,11 @@
+---
+name: TSForm.Elements.PasswordElement - Basic Example
+description: Standard implementation
+authors:
+  - Olivier Andiressen
+resources:
+  - /js/empty.js
+  - /css/normalize.css
+normalize_css: yes
+lang_css: SCSS
+...
