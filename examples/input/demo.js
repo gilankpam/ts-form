@@ -1,5 +1,4 @@
-///<reference path="../../build/ts-form.d.ts"/>
-///<reference path="../../typings/tsd.d.ts"/>
+declare var angular;
 
 module InputDemo {
 
