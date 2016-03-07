@@ -13,5 +13,6 @@ resources:
   - https://rawgit.com/redound/ts-form/master/build/ts-form.tpls.js
 normalize_css: yes
 lang_css: SCSS
+lang_js: TypeScript
 wrap: l
 ...

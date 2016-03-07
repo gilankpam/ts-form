@@ -14,5 +14,5 @@ resources:
 normalize_css: yes
 lang_css: SCSS
 lang_js: TypeScript
-wrap: d
+wrap: l
 ...
