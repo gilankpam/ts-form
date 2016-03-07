@@ -1,9 +1,11 @@
 <div class="container" ng-app="app" ng-controller="DemoController as vm">
     <div class="row">
         <div class="col-md-6">
-            <textarea-element element-options="vm.element" model-value="vm.item.notes" model="vm.item">
+            <form action="" class="form form-horizontal">
+                <textarea-element element-options="vm.element" model-value="vm.item.notes" model="vm.item">
 
-            </textarea-element>
+                </textarea-element>
+            </form>
         </div>
         <div class="col-md-6">
             <pre ng-bind="vm.item | json">

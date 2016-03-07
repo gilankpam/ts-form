@@ -13,10 +13,12 @@ var TextareaDemo;
     })();
     TextareaDemo.DemoController = DemoController;
 })(TextareaDemo || (TextareaDemo = {}));
-var app = angular.module('app', [
-    'ts-form'
-]);
-app.run(function () {
-    console.log('Demo running...');
-});
-app.controller('DemoController', TextareaDemo.DemoController);
+setTimeout(function () {
+    var app = angular.module('app', [
+        'ts-form'
+    ]);
+    app.run(function () {
+        console.log('Demo running...');
+    });
+    app.controller('DemoController', TextareaDemo.DemoController);
+}, 2000);

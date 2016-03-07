@@ -15,10 +15,12 @@ var CheckboxDemo;
     })();
     CheckboxDemo.DemoController = DemoController;
 })(CheckboxDemo || (CheckboxDemo = {}));
-var app = angular.module('app', [
-    'ts-form'
-]);
-app.run(function () {
-    console.log('Demo running...');
-});
-app.controller('DemoController', CheckboxDemo.DemoController);
+setTimeout(function () {
+    var app = angular.module('app', [
+        'ts-form'
+    ]);
+    app.run(function () {
+        console.log('Demo running...');
+    });
+    app.controller('DemoController', CheckboxDemo.DemoController);
+}, 5000);
