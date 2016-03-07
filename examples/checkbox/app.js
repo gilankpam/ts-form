@@ -1,37 +1,24 @@
-module CheckboxDemo {
-
-    interface ItemInterface {
-        terms: boolean
-    }
-
-    export class DemoController {
-
-        public element: TSForm.Elements.CheckboxElement;
-
-        public item: ItemInterface;
-
-        public constructor() {
-
+var CheckboxDemo;
+(function (CheckboxDemo) {
+    var DemoController = (function () {
+        function DemoController() {
             this.item = {
                 terms: false
             };
-
             this.element = new TSForm.Elements.CheckboxElement()
                 .name('terms')
                 .label('Terms')
                 .trueValue('yes')
                 .falseValue('no');
         }
-    }
-}
-
-// Bootstrap
+        return DemoController;
+    })();
+    CheckboxDemo.DemoController = DemoController;
+})(CheckboxDemo || (CheckboxDemo = {}));
 var app = angular.module('app', [
     'ts-form'
 ]);
-
-app.run(() => {
+app.run(function () {
     console.log('Demo running...');
 });
-
 app.controller('DemoController', CheckboxDemo.DemoController);

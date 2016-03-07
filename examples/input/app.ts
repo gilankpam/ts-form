@@ -1,3 +1,6 @@
+///<reference path="../../build/ts-form.d.ts"/>
+///<reference path="../../typings/tsd.d.ts"/>
+
 module InputDemo {
 
     interface ItemInterface {

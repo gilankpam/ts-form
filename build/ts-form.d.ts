@@ -1,4 +1,5 @@
 /// <reference path="../node_modules/ts-core/build/ts-core.d.ts" />
+/// <reference path="../typings/tsd.d.ts" />
 declare module TSForm {
     class View {
         static DELEGATE_EVENT_SPLITTER: RegExp;
