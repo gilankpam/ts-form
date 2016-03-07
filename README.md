@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/redound/ts-form.svg?branch=development)](https://travis-ci.org/redound/ts-form)
-
 # TSForm
 
 *TypeScript Form Library*
