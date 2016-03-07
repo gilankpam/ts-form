@@ -26,13 +26,16 @@ module TextareaDemo {
     }
 }
 
-// Bootstrap
-var app = angular.module('app', [
-    'ts-form'
-]);
+setTimeout(() => {
 
-app.run(() => {
-    console.log('Demo running...');
-});
+    // Bootstrap
+    var app = angular.module('app', [
+        'ts-form'
+    ]);
 
-app.controller('DemoController', TextareaDemo.DemoController);
+    app.run(() => {
+        console.log('Demo running...');
+    });
+
+    app.controller('DemoController', TextareaDemo.DemoController);
+}, 2000);
