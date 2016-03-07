@@ -19,20 +19,20 @@
 <body>
 
 <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <form class="form form-horizontal">
+                <input-element element-options="vm.element" model-value="vm.item.organization" model="vm.item">
 
-    <h1>
-        TSForm.Elements.InputElement
-    </h1>
+                </input-element>
+            </form>
+        </div>
+        <div class="col-md-6">
+            <pre ng-bind="vm.item | json">
 
-    <pre ng-bind="vm.item | json">
-
-    </pre>
-
-    <form class="form form-horizontal">
-        <input-element element-options="vm.element" model-value="vm.item.organization" model="vm.item">
-
-        </input-element>
-    </form>
+            </pre>
+        </div>
+    </div>
 
 </div><!-- /.container -->
 
