@@ -72,6 +72,7 @@ module TSForm {
         }
 
         public name(name: string) {
+            this._id = name;
             this._name = name;
             return this;
         }

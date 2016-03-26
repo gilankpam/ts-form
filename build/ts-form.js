@@ -168,9 +168,11 @@ var TSForm;
             var namespace = this.getNameSpace();
             var name = this.getName();
             var suffix = 'Instance';
+            var onSubmit = 'OnSubmit()';
             this.$el.empty();
             this.$el.attr('class', this.getClassName());
             this.$el.attr('name', namespace + "." + name + suffix);
+            this.$el.attr('ng-submit', namespace + "." + name + onSubmit);
             this._elements.each(function (id, element) {
                 if (!element.getEntity()) {
                     element.entity(_this.getEntity());
@@ -225,6 +227,7 @@ var TSForm;
             return this;
         };
         Element.prototype.name = function (name) {
+            this._id = name;
             this._name = name;
             return this;
         };
