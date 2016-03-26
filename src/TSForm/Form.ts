@@ -86,10 +86,12 @@ module TSForm {
             var namespace = this.getNameSpace();
             var name = this.getName();
             var suffix = 'Instance';
+            var onSubmit = 'OnSubmit()';
 
             this.$el.empty();
             this.$el.attr('class', this.getClassName());
             this.$el.attr('name', `${namespace}.${name}${suffix}`);
+            this.$el.attr('ng-submit', `${namespace}.${name}${onSubmit}`);
 
             this._elements.each((id, element) => {
 
