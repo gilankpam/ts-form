@@ -2,7 +2,7 @@
   "name": "ts-form",
   "version": "1.0.0",
   "description": "*TypeScript Form Library*",
-  "main": "index.js",
+  "main": "lib/ts-form.js",
   "directories": {
     "example": "examples"
   },
