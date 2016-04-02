@@ -1,4 +1,5 @@
 import Element from "../Element";
+import * as _ from "underscore";
 
 export default class CheckboxElement extends Element {
 

@@ -1,5 +1,6 @@
 import View from "./View";
 import Form from "./Form";
+import * as _ from "underscore";
 
 export default class Element extends View {
 
