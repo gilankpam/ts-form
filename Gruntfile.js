@@ -4,7 +4,7 @@ module.exports = function(grunt) {
         html2js: {
             options: {
                 singleModule: true,
-                existingModule: true,
+                existingModule: false,
                 module: 'ts-form-templates',
                 rename: function(moduleName) {
                     return moduleName.replace('../templates/', 'templates/');
