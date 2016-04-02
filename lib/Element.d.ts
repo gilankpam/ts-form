@@ -1,0 +1,31 @@
+import View from "./View";
+import Form from "./Form";
+export default class Element extends View {
+    protected _tagName: string;
+    _uniqueId: string;
+    _id: string;
+    _form: Form;
+    _type: string;
+    _name: string;
+    _label: string;
+    _formatter: any;
+    _entity: string;
+    _required: boolean;
+    constructor();
+    id(id: string): this;
+    getId(): string;
+    setForm(form: Form): this;
+    getForm(): Form;
+    formatter(formatter: any): this;
+    getFormatter(): any;
+    entity(entity: string): this;
+    getEntity(): string;
+    type(type: string): this;
+    name(name: string): this;
+    getName(): string;
+    label(label: string): this;
+    getLabel(): string;
+    required(required?: boolean): this;
+    format(value: string): string;
+    render(): this;
+}
